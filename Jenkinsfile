@@ -103,7 +103,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'https://luminous-dieffenbachia-084340.netlify.ap'
+                CI_ENVIRONMENT_URL = 'https://luminous-dieffenbachia-084340.netlify.app'
             }
 
             steps {
