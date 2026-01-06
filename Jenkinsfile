@@ -107,6 +107,7 @@ pipeline {
             }
 
             steps {
+                echo 'Test stage'
                 sh '''
                     npx playwright test  --reporter=html
                 '''
